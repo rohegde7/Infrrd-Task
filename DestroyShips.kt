@@ -11,7 +11,6 @@ class DestroyShips {
                 line.split(" ").map {
                     it.toInt()
                 }.forEach {
-                    println(it)
                     listOfLoot.add(it)
                 }
             }
